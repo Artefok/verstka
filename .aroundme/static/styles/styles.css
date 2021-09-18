@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'PT Sans', sans-serif;
+  src: url("../fonts/PT_Sans/PTSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PT Sans', sans-serif;
+  src: url("../fonts/PT_Sans/PTSans-Bold.ttf");
+  font-weight: 700;
+  font-style: bold;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span {
+  font-family: 'PT-Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+html {
+  font-size: 16px;
+}
+h1 {
+  font-size: 2.6rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1.05rem;
+}
+p {
+  line-height: 38px;
+  color: #1e2022;
+  margin: 16px 0px;
+}
+body {
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #dadada;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.horiz-menu {
+  display: flex;
+  justify-content: space-around;
+}
+.horiz-menu li:not(:last-child) {
+  margin-right: 40px;
+}
+.horiz-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9 rem;
+  color: #9CA5AF;
+  transition: 0.5s;
+}
+.horiz-menu li:hover a {
+  color: #603232;
+  cursor: pointer;
+  transition: 0.5s;
+}
+header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  padding: 0px 6%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+main {
+  width: 1200px;
+  height: calc(100vh - 140px);
+  padding-top: 140px;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}
+.description {
+  width: 500px;
+}
+.description p {
+  color: #FFFFFF;
+}
+.gallery {
+  width: 700px;
+  margin-left: 120px;
+  position: relative;
+  height: 100%;
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+.cards {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+.controls {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
