@@ -1,0 +1,252 @@
+@font-face {
+  font-family: 'PT Sans', sans-serif;
+  src: url("../fonts/PT_Sans/PTSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PT Sans', sans-serif;
+  src: url("../fonts/PT_Sans/PTSans-Bold.ttf");
+  font-weight: 700;
+  font-style: bold;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span {
+  font-family: 'PT-Sans', sans-serif;
+  color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+html {
+  font-size: 16px;
+}
+h1 {
+  font-size: 2.6rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1.05rem;
+}
+p {
+  line-height: 38px;
+  color: #1e2022;
+  margin: 16px 0px;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.bt-round {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: 50px;
+  opacity: 0.8;
+  transition: sll 0.15s ease;
+}
+.button-main {
+  padding: 20px 16px;
+  border-radius: 6px;
+  background-color: #603232;
+  text-align: left;
+  color: #FFFFFF;
+}
+.cent-desc button {
+  opacity: 0.75;
+  transition: ease 0.2s;
+}
+.button-main:hover {
+  opacity: 1;
+  transition: ease 0.2s;
+}
+.next {
+  min-width: 200px;
+}
+body {
+  margin: 0;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-position: center;
+  background-size: cover;
+}
+.africa {
+  background-image: url("../images/bg-africa.jpg");
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.horiz-menu {
+  display: flex;
+  justify-content: space-around;
+}
+.horiz-menu li:not(:last-child) {
+  margin-right: 40px;
+}
+.horiz-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9 rem;
+  color: #9CA5AF;
+  transition: 0.5s;
+}
+.horiz-menu li:hover a {
+  color: #603232;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.side,
+.trips {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.hide {
+  display: none;
+}
+.trips {
+  margin-left: 60px;
+}
+.trips p {
+  margin-right: 20px;
+}
+header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  padding: 0px 6%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+main {
+  width: 1200px;
+  height: calc(100vh - 140px);
+  padding-top: 140px;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+.description {
+  width: 500px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.description p {
+  color: #FFFFFF;
+}
+.gallery {
+  width: 700px;
+  margin-left: 120px;
+  position: relative;
+  height: 100%;
+  padding: 20px 0px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.cards {
+  height: 100%;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+.cards .card {
+  height: 80%;
+  width: 260px;
+  margin-right: 36px;
+}
+.cards .card .card-desc {
+  height: 15%;
+  margin-bottom: 3%;
+}
+.cards .card .card-image {
+  height: 100%;
+  width: 82%;
+  position: relative;
+  overflow: hidden;
+}
+.cards .card .card-image img {
+  height: 150%;
+}
+.cards .card .card-image button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.cards .card .rating {
+  display: flex;
+}
+.cards .card .rating .circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  margin-right: 4px;
+}
+.cards .card .rating .off {
+  opacity: 0.6;
+}
+.cards .card:not(:nth-child(1)) {
+  height: 65%;
+}
+.controls {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.controls .arrows button {
+  width: 70px;
+  height: 80px;
+  opacity: 0.4;
+}
+.controls .left-arrow {
+  margin-right: 20px;
+}
+.slide-nums {
+  display: flex;
+  align-items: center;
+}
+.slide-nums .line {
+  width: 200px;
+  height: 2px;
+  background-color: #FFFFFF;
+  margin: 0 12px;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
