@@ -1,0 +1,130 @@
+body{
+    width: 1200;
+    background: rgb(13, 31, 17, 0.7);
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    margin-right: 150px;
+    margin-left: -40px;
+}
+.social{
+    margin-left: 90px;
+    margin-right: -80px;
+
+}
+#inst{
+    margin-right: 10px;
+}
+.main-display{
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 100px;
+    margin-top: 100px;
+    align-items:flex-end;
+}
+.arrows1{
+    margin-right: 40px;
+}
+.scroll-displays{
+    margin-left: 18px;
+    position: fixed;
+    margin-top: 200px;
+}
+.row-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.buy-div{
+    display:flex;
+    align-items: center;
+    margin-top: -10px;
+}
+.learn-emerald{
+    margin-left: 30px;
+}
+.card-first{
+    display:flex;
+    background: rgb(13, 31, 17, 0.4);
+    width:450px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.text-card-first{
+    font-size: 10pt;
+}
+ul{
+    font-size: 11pt;
+}
+.tour_cards{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.ireland-tours{
+    margin-top: 50px; 
+}
+#tours_h1{
+    margin-left: 120px;
+}
+.tours-display{
+    margin-top: 70px;
+}
+.arrows{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 270px;
+    margin-top: 50px;
+}
+.card1{
+    transform: translate(0px, -70px);
+}
+.card2{
+    transform: translate(0px, -20px);
+}
+.oestinations-display{
+    display: flex;
+    margin-left: 110px;
+    justify-content: space-between;
+}
+.text_CoM{
+    width: 300px;
+    height: 200px;
+}
+#small_CoM{       
+}
+.line{
+    width: 40px;
+    height: 1px;
+    margin: 0 12px;
+    margin-top: 0px;
+    background: #ffffff;
+    opacity: 0.6;
+}
+.arrows{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+.arrow{
+    opacity: 0.5;
+    color: white;
+    background-color: gray;
+    border: 1px solid rgb(141, 141, 141);
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#h1{
+    font-size: 36pt;
+}
